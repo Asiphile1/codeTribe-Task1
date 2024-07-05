@@ -1,22 +1,31 @@
 import React from 'react';
-import { GlobalStyle, Container } from './styles';
-import Header from './components/Header';
+import { GlobalStyle, Container, GradientBackground } from './styles';
 import Navbar from './components/Navbar';
 import ChairCard from './ChairCard';
 import Footer from './components/Footer';
 
+// Main App component containing the structure of the page
 const App = () => {
   return (
     <>
+      {/* Global styles */}
       <GlobalStyle />
-      <Container>
-        <Navbar />
-        <Header />
-        <ChairCard />
+      <GradientBackground>
+        <Container>
+          {/* Navigation bar */}
+          <Navbar />
+          {/* Chair information card */}
+          <ChairCard />
+        </Container>
+        {/* Footer section */}
         <Footer />
-      </Container>
+      </GradientBackground>
     </>
   );
 }
 
 export default App;
+
+
+
+//import { GlobalStyle, Container, GradientBackground } from './styles';

@@ -1,17 +1,25 @@
-
 import styled, { createGlobalStyle } from 'styled-components';
 
-
+// Global styles for the entire application
 export const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f0f0f0;
   }
 `;
 
+// Gradient background to cover the entire page
+export const GradientBackground = styled.div`
+  background: linear-gradient(to bottom right, #ff7300, #ffffff);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+`;
+
+// Container to center the content and set a maximum width
 export const Container = styled.div`
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 100%;
+  
   padding: 20px;
+  flex: 1;
 `;
