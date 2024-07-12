@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-// Container for the chair card with a two-column layout
+// Container for the chair card, two-column
 const Card = styled.div`
   display: flex;
   justify-content: space-between;
@@ -11,7 +11,7 @@ const Card = styled.div`
   margin-top: 20px;
 `;
 
-// Left column for the chair image
+// Left column, chair image
 const LeftColumn = styled.div`
   flex: 1;
   display: flex;
@@ -26,7 +26,7 @@ const ChairImage = styled.img`
   width: 500px;
 `;
 
-// Right column for the chair details
+// Right column chair
 const RightColumn = styled.div`
   flex: 1;
   display: flex;
@@ -35,14 +35,14 @@ const RightColumn = styled.div`
   text-align: left;
 `;
 
-// Chair description styling
+// Chair description
 const ChairDescription = styled.p`
   font-size: 16px;
   color: #fff;
   max-width: 400px;
 `;
 
-// Price styling
+// Price
 const Price = styled.p`
   font-size: 24px;
   font-weight: bold;
@@ -50,7 +50,7 @@ const Price = styled.p`
   
 `;
 
-// Add to cart button styling
+// Add to cart button
 const AddToCartButton = styled.button`
   background-color: #fff;
   color: #ff7300;
@@ -65,15 +65,15 @@ const AddToCartButton = styled.button`
   }
 `;
 
-// Chair card component displaying the chair information
+
 const ChairCard = () => {
   return (
     <Card>
-      {/* Left column with chair image */}
+      
       <LeftColumn>
         <ChairImage src="/downloaded-pic-1-removebg-preview.png" alt="Shell Chair" />
       </LeftColumn>
-      {/* Right column with chair details */}
+      
       <RightColumn>
         <ChairDescription>
           The Carl Hansen CH07 Shell chair in Oiled Oak is a sculptural easy chair with a triangular footprint. Canaletto seat and 4 spoke swivel base all in natural polished Canaletto walnut fabric.

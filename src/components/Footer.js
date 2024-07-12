@@ -5,17 +5,22 @@ import styled from 'styled-components';
 const FooterContainer = styled.footer`
   display: flex;
   justify-content: space-between;
-  padding: 20px;
-  background-color:  ; 
+ 
+  background-color: ; 
   margin-top: 20px;
+  gap:1000px;
+  
+  
 `;
 
-// Left section styling for social links
+// Left section 
 const LeftSection = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  background-color: #ff7300;
+  
 `;
 
 // Social links styling
@@ -27,7 +32,7 @@ const SocialLinks = styled.div`
   & > a {
     text-decoration: none;
     color: #000;
-    font-size: px;
+    font-size: 40px;
   }
 `;
 
@@ -36,20 +41,21 @@ const RightSection = styled.div`
   display: flex;
   justify-content: center;
   flex: 1;
+  background-color:white;
 `;
 
 // Text columns styling
 const TextColumn = styled.div`
   flex: 1;
   text-align: center;
-  padding: 0 10px;
+  padding: 10px;
 `;
 
 // Footer component
 const Footer = () => {
   return (
     <FooterContainer>
-      {/* Left section with social media links */}
+      {/* Left section */}
       <LeftSection>
         <SocialLinks>
           <a href="https://facebook.com" aria-label="Facebook">👍</a>
@@ -57,7 +63,7 @@ const Footer = () => {
           <a href="https://twitter.com" aria-label="Twitter">🐦</a>
         </SocialLinks>
       </LeftSection>
-      {/* Right section with text columns */}
+      {/* Right section */}
       <RightSection>
         <TextColumn>
           <p>01. Aiku Soft with new luxury finishes</p>

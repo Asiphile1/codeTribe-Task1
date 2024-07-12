@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-// Container for the navigation bar
+// Container navigation bar
 const NavbarContainer = styled.nav`
   display: flex;
   justify-content: space-between;
@@ -14,7 +14,7 @@ const Logo = styled.h1`
   font-size: 24px;
 `;
 
-// Navigation links styling
+// Navigation links
 const NavLinks = styled.ul`
   list-style: none;
   display: flex;
@@ -25,7 +25,7 @@ const NavLinks = styled.ul`
   }
 `;
 
-// Emoji container styling
+// Emoji container
 const EmojiContainer = styled.div`
   display: flex;
   gap: 10px;

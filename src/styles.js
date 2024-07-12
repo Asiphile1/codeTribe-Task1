@@ -1,6 +1,6 @@
 import styled, { createGlobalStyle } from 'styled-components';
 
-// Global styles for the entire application
+// Global styles for the whole app
 export const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
@@ -8,18 +8,139 @@ export const GlobalStyle = createGlobalStyle`
   }
 `;
 
-// Gradient background to cover the entire page
+// Gradient background  with SVG path for WHOLE PAGE, then the footer I will style differently 
 export const GradientBackground = styled.div`
-  background: linear-gradient(to bottom right, #ff7300, #ffffff);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right, #ffffff 50%, #fF7300 0%);
+    clip-path: path("M0,0 L100%,0 L100%,100% L0,100% Z");
+    z-index: -1;
+  }
 `;
 
 // Container to center the content and set a maximum width
 export const Container = styled.div`
   max-width: 100%;
-  
   padding: 20px;
   flex: 1;
 `;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ythis made a straight divide 
+// import styled, { createGlobalStyle } from 'styled-components';
+
+// // Global styles for the entire application
+// export const GlobalStyle = createGlobalStyle`
+//   body {
+//     margin: 0;
+//     font-family: Arial, Helvetica, sans-serif;
+//   }
+// `;
+
+// // Gradient background to cover the entire page with SVG path
+// export const GradientBackground = styled.div`
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   position: relative;
+//   overflow: hidden;
+
+//   &::before {
+//     content: '';
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     background: linear-gradient(to bottom right, #ff7300 50%, #ffffff 50%);
+//     clip-path: path("M0,0 L100%,0 L100%,100% L0,100% Z");
+//     z-index: -1;
+//   }
+// `;
+
+// // Container to center the content and set a maximum width
+// export const Container = styled.div`
+//   max-width: 100%;
+//   padding: 20px;
+//   flex: 1;
+// `;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import styled, { createGlobalStyle } from 'styled-components';
+
+// // Global styles for the entire application
+// export const GlobalStyle = createGlobalStyle`
+//   body {
+//     margin: 0;
+//     font-family: Arial, Helvetica, sans-serif;
+//   }
+// `;
+
+// // Gradient background to cover the entire page
+// export const GradientBackground = styled.div`
+//   background: linear-gradient(to bottom right, #ff7300, #ffffff);
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+// `;
+
+// // Container to center the content and set a maximum width
+// export const Container = styled.div`
+//   max-width: 100%;
+  
+//   padding: 20px;
+//   flex: 1;
+// `;
