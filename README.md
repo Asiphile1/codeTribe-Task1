@@ -1,16 +1,16 @@
-#UI Recreation Project
+# UI Recreation Project
 
-##Overview
+## Overview
 
 This project is a recreation of a design that showcases a minimal and modern product page for a "Shell chair." The main goal was to replicate the UI design as closely as possible before I learned how to code, demonstrating my design and development skills.
 
 
-##Design Inspiration
+## Design Inspiration
 
 The design features a clean, modern aesthetic with a strong use of vibrant colors, particularly the orange background that highlights the product. The page layout emphasizes the product image, with a clear and easy-to-read product description and pricing information.
 
 
-##Features
+## Features
 
 - **Responsive Design**: The UI was designed to be responsive, ensuring it looks good on both desktop and mobile devices.
 
@@ -20,7 +20,7 @@ The design features a clean, modern aesthetic with a strong use of vibrant color
 - **Color Selection**: A color swatch feature allows users to view different color options for the product.
 
 
-##Challenges Faced
+## Challenges Faced
 
 - **Wave Background Effect**: One of the significant challenges was replicating the wave effect in the background. Due to my limited coding experience at the time, I couldn't achieve the desired wave effect. Instead, I opted for a linear background as a placeholder. This alternative maintained the clean look of the design but lacked the dynamic visual impact of the original wave.
 
@@ -33,7 +33,7 @@ The design features a clean, modern aesthetic with a strong use of vibrant color
 - **Image Placement**: Centering the product image and ensuring it looked good across different screen sizes required careful attention to detail.
 
 
-##Technologies Used
+## Technologies Used
 
 - HTML
 
@@ -44,7 +44,7 @@ The design features a clean, modern aesthetic with a strong use of vibrant color
 - Basic Design Tools (for color matching and layout planning)
 
 
-##Installation
+## Installation
 
 To view the project locally:
 
@@ -52,7 +52,7 @@ To view the project locally:
 
 - Open index.html in your web browser.
 
-##Future Improvements
+## Future Improvements
 
 - Implement the wave effect in the background using SVG or CSS techniques once I gain more experience.
 
@@ -63,5 +63,3 @@ To view the project locally:
 
 
 This project was an excellent learning experience, allowing me to apply my design knowledge and improve my coding skills. While I encountered several challenges, the process helped me understand the importance of precision and attention to detail in UI design.
-## Learn More
-
