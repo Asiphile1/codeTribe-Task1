@@ -11,7 +11,7 @@ body{
     background-size: cover;         /* covers all */
     background-position: center;    
     background-repeat: no-repeat;   /* so the image is one big picture and not repeated */
-    height: 98vh;
+    height: 100vh;
     margin: 0 ;                 
     /* width: 100vw;                   */
     display: flex;

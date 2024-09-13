@@ -19,7 +19,7 @@
   }
   
   .social-icon {
-    font-size: 24px;
+    font-size: 20px;
     margin: 10px 0;
     transition: color 0.3s ease;
     cursor: pointer;
@@ -33,7 +33,8 @@
   .arrows {
     flex: 0 0 30%; 
     display: flex;
-    flex-direction: column;
+    gap: 5em;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
   }
@@ -41,10 +42,12 @@
   .arrow-btn {
     background: none;
     border: 2px solid white;
+    border-radius: 50%;
     color: white;
     padding: 10px;
     margin: 5px;
     cursor: pointer;
+
     transition: background 0.3s ease, color 0.3s ease;
   }
   
@@ -59,15 +62,18 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    background-color: white;
   }
   
   .text-box {
     flex: 3; 
-    margin: 0 10px; 
+    color: #000;
+    /* margin: 0 10px;  */
     padding: 10px;
     text-align: center;
-    border: 1px solid white;
-    background: rgba(221, 20, 20, 0.1);
+    /* border: 1px solid white; */
+    /* background: rgba(221, 20, 20, 0.1); */
+    
     transition: background 0.3s ease;
   }
   

@@ -6,12 +6,12 @@ function Header() {
   return (
     <header className="header-section">
       <div className="left-side">
-        <img src="" alt="chair" className="product-image" />
+      <img src="/wegner-white2-b.png" alt="Product" className="product-image" />
       </div>
       <div className="right-side">
         <h1>Shell chair</h1>
         <p>
-          The Carl Hansen CHO7 Shell chair in Oiled Oak <br></br>is a sculptural easy chair with a <br></br>triangular footprint. Canaletto seat and 4 <br></br>spoke swivel base all in natural polished <br></br>Canaletto walnut fabric
+          The Carl Hansen CHO7 Shell chair in Oiled<br></br> Oak is a sculptural easy chair with a <br></br>triangular footprint. Canaletto seat and 4 <br></br>spoke swivel base all in natural polished <br></br>Canaletto walnut fabric
         </p>
         <div className="shaded-boxes">
           <div className="box"></div>
