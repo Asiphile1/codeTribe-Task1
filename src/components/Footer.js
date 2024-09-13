@@ -19,9 +19,9 @@ function Footer() {
         </button>
       </div>
       <div className="footer-section text-boxes">
-        <div className="text-box">Box 1</div>
-        <div className="text-box">Box 2</div>
-        <div className="text-box">Box 3</div>
+        <div className="text-box">rgioeirgj0 ewuuug nersgrokgr ikgrjikroigik tikhkrkkjmyg fjjfjjtjr ijr</div>
+        <div className="text-box">ioeirgj0 ewuuug nersgrokgr ikgrjikroigik tikhkrkkjmyg fjjfjjtjr ijr</div>
+        <div className="text-box">ioeirgj0 ewuuug nersgrokgr ikgrjikroigik tikhkrkkjmyg fjjfjjtjr ijr</div>
       </div>
     </footer>
   );

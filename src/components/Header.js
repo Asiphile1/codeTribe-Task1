@@ -1,12 +1,35 @@
-import React from 'react'
+import React from 'react';
+import './Header.css';
+import { FaHeart } from 'react-icons/fa';
 
-export default function Header() {
+function Header() {
   return (
-    <div>Header</div>
-  )
+    <header className="header-section">
+      <div className="left-side">
+        <img src="/public/downloaded-pic-1-removebg-preview.png" alt="chair" className="product-image" />
+      </div>
+      <div className="right-side">
+        <h1>Shell chair</h1>
+        <p>
+          The Carl Hansen CHO7 Shell chair in Oiled Oak <br></br>is a sculptural easy chair with a <br></br>triangular footprint. Canaletto seat and 4 <br></br>spoke swivel base all in natural polished <br></br>Canaletto walnut fabric
+        </p>
+        <div className="shaded-boxes">
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+        </div>
+        <p className="price">$735</p>
+        <div className="action-buttons">
+          <button className="add-to-cart">Add to Cart</button>
+          <FaHeart className="heart-icon" />
+        </div>
+      </div>
+    </header>
+  );
 }
 
-
+export default Header;
 
 
 
