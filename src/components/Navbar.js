@@ -1,3 +1,29 @@
+import React from 'react';
+import './Navbar.css';
+import { FaShoppingCart, FaSearch, FaBars } from 'react-icons/fa';
+
+function Navbar() {
+  return (
+    <nav className="navbar">
+      <div className="navbar-left">
+        <span className="navbar-icon">🌟</span> {/* Replace with your icon */}
+        <span className="navbar-text">CARL HANSEN & SON</span>
+      </div>
+      <div className="navbar-links">
+        <a href="#link1">Home</a>
+        <a href="#link2">About</a>
+        <a href="#link3">Contact</a>
+      </div>
+      <div className="navbar-right">
+        <FaShoppingCart className="icon" />
+        <FaSearch className="icon" />
+        <FaBars className="icon" />
+      </div>
+    </nav>
+  );
+}
+
+export default Navbar;
 
 
 
