@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className="header-section">
       <div className="left-side">
-        <img src="/public/downloaded-pic-1-removebg-preview.png" alt="chair" className="product-image" />
+        <img src="" alt="chair" className="product-image" />
       </div>
       <div className="right-side">
         <h1>Shell chair</h1>
