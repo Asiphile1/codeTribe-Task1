@@ -1,11 +1,33 @@
-import React from 'react'
+import React from 'react';
+import { FaFacebook, FaInstagram, FaTwitter, FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+import './Footer.css';
 
-export default function Footer() {
+function Footer() {
   return (
-    <div>Footer</div>
-  )
+    <footer className="footer">
+      <div className="footer-section icons">
+        <FaFacebook className="social-icon" />
+        <FaInstagram className="social-icon" />
+        <FaTwitter className="social-icon" />
+      </div>
+      <div className="footer-section arrows">
+        <button className="arrow-btn">
+          <FaArrowLeft />
+        </button>
+        <button className="arrow-btn">
+          <FaArrowRight />
+        </button>
+      </div>
+      <div className="footer-section text-boxes">
+        <div className="text-box">Box 1</div>
+        <div className="text-box">Box 2</div>
+        <div className="text-box">Box 3</div>
+      </div>
+    </footer>
+  );
 }
 
+export default Footer;
 
 
 
