@@ -1,31 +1,78 @@
 import React from 'react';
-import { GlobalStyle, Container, GradientBackground } from './styles';
 import Navbar from './components/Navbar';
-import ChairCard from './ChairCard';
+import Header from './components/Header';
 import Footer from './components/Footer';
-import { IntegrationInstructions } from '@mui/icons-material';
+import './App.css';
 
-
-const App = () => {
+function App() {
   return (
-    <>
-      
-      <GlobalStyle />
-      <GradientBackground>
-        <Container>
-          
-          <Navbar />
-          
-          <ChairCard />
-        </Container>
-        
-        <Footer />
-      </GradientBackground>
-    </>
+    <div className="App">
+      <Navbar />
+      <Header />
+      <Footer />
+    </div>
   );
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import React from 'react';
+// import { GlobalStyle, Container, GradientBackground } from './styles';
+// import Navbar from './components/Navbar';
+// import ChairCard from './ChairCard';
+// import Footer from './components/Footer';
+// import { IntegrationInstructions } from '@mui/icons-material';
+
+
+// const App = () => {
+//   return (
+//     <>
+      
+//       <GlobalStyle />
+//       <GradientBackground>
+//         <Container>
+          
+//           <Navbar />
+          
+//           <ChairCard />
+//         </Container>
+        
+//         <Footer />
+//       </GradientBackground>
+//     </>
+//   );
+// }
+
+// export default App;
 
 
 
