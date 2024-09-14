@@ -4,7 +4,8 @@
 
 This project is a recreation of a design that showcases a minimal and modern product page for a "Shell chair." The main goal was to replicate the UI design as closely as possible before I learned how to code, demonstrating my design and development skills.
 ## My UI design
-![finished ui #1](https://github.com/user-attachments/assets/3c5be1cf-fe9d-4adc-a4dc-2bf420328859)
+![ui replicated](https://github.com/user-attachments/assets/245ad990-747b-4f71-ba41-faa0e91f8d94)
+
 
 
 ## Design Inspiration
