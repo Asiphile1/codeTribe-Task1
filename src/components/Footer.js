@@ -19,9 +19,9 @@ function Footer() {
         </button>
       </div>
       <div className="footer-section text-boxes">
-        <div className="text-box">rgioeirgj0 ewuuug nersgrokgr ikgrjikroigik tikhkrkkjmyg fjjfjjtjr ijr</div>
-        <div className="text-box">ioeirgj0 ewuuug nersgrokgr ikgrjikroigik tikhkrkkjmyg fjjfjjtjr ijr</div>
-        <div className="text-box">ioeirgj0 ewuuug nersgrokgr ikgrjikroigik tikhkrkkjmyg fjjfjjtjr ijr</div>
+        <div className="text-box">01.<br></br>Aiku Soft with<br></br>new luxury finishes</div>
+        <div className="text-box">02.<br></br>Antonio Citterio's<br></br>Jens for B&B Italia</div>
+        <div className="text-box">03.<br></br>11B Herkner for<br></br> Thonet Offenbach</div>
       </div>
     </footer>
   );
